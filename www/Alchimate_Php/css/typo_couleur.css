@@ -1,0 +1,201 @@
+.bouton_header button{
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+header.big_header h1{
+    font-size: 60px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+.info_main h2{
+    font-size: 70px;
+    font-family: 'P22 Johnston Underground', sans-serif;
+    font-weight: 300;
+    position: relative;
+}
+.info_main h2:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 23%;
+    height: 5%;
+    background-color: #EF473A;
+    margin-top: 115px;
+}
+input{
+    color: #4F4F4F;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.checkbox{
+    color: #4F4F4F;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+main a>button{
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+.titre_info_joueur{
+    font-family: 'P22 Johnston Underground', sans-serif;
+    font-size: 50px;
+    margin-bottom: 75px;
+}
+.titre_info_joueur:after{
+    content: '';
+    position: absolute;
+    left: 10%;
+    width: 20%;
+    height: 1%;
+    background-color: #EF473A;
+    top: 220px;
+}
+.requete_info_joueur{
+    font-size: 25px;
+    font-family: 'P22 Johnston Underground', sans-serif;
+    margin-top: 50px;
+}
+.critere h3{
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+.bandeux_rouge p{
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+.bandeux_rouge h1{
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+.bandeux_rouge a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.flex_main_jeux_recherche{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+.main_recherche_joueur h1{
+    font-size: 60px;
+    font-family: 'P22 Johnston Underground', sans-serif;
+    margin-top: 100px;
+    text-align: center;
+}
+.under_name h1{
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+.custom_request a{
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+    color: #000;
+}
+.flex_title_lol h1{
+    font-size: 60px;
+    font-family: 'P22 Johnston Underground', sans-serif;
+}
+.jeu_logo h2{
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+.profil{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+.joueur_name{
+    font-size: 40px;
+    font-family: 'P22 Johnston Underground', sans-serif;
+}
+.info_perso_joueur h2{
+    font-size: 35px;
+    font-family: 'P22 Johnston Underground', sans-serif;
+}
+.jeu_perso_modif h2{
+    font-size: 35px;
+    font-family: 'P22 Johnston Underground', sans-serif;
+}
+.profil_joueur p{
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+.profil_joueur ul>li{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.flex_info_scnd_player h2{
+    font-size: 35px;
+    font-family: 'P22 Johnston Underground', sans-serif;
+}
+.contact h1{
+    font-size: 80px;
+    font-family: 'P22 Johnston Underground', sans-serif;
+}
+.retour_site_button button{
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+.description_title{
+    font-size: 35px;
+    font-family: 'P22 Johnston Underground', sans-serif;
+}
+.flex_label_modif p{
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+.flex_cadre_info p{
+    font-size: 20px;
+    font-family: 'P22 Johnston Underground', sans-serif;
+    text-align: center;
+}
+.avis_dun_joueur_externe{
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: #1E85E9;
+    margin-top: 5px;
+}
+.filtre_recherche p{
+    font-size: 30px;
+    font-family: 'P22 Johnston Underground', sans-serif;
+}
+label.filtre{
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+.input_under{
+    color: #4F4F4F;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    text-align: center;
+}

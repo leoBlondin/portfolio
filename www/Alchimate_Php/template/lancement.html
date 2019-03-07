@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Recherche des joueurs avec Alchimate</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/typo_couleur.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header class="inscription big_header">
+    <div class="flex_header">
+        <div class="title_img">
+            <object data="css/images_interfaces/logo_alchimate.svg" type="image/svg+xml"></object>
+            <h1>Alchimate</h1>
+        </div>
+        <div class="bouton_header">
+            <a href="index.php?page=connectMe">
+                <button>Connexion</button>
+            </a>
+        </div>
+    </div>
+</header>
+<main class="inscription">
+    <div class="flex_main">
+        <div class="info_main">
+            <h2>Vous ne serez bientôt plus seul...</h2>
+            <div class="flex_jeu_main">
+                <img src="css/images_contenu/logo_lol.png" alt="League Of Legend">
+                <img src="css/images_contenu/logo_ow.png" alt="Overwatch">
+                <img src="css/images_contenu/logo_rocketl.png" alt="Rocket League">
+                <img src="css/images_contenu/logo_fortnite.png" alt="Fortnite">
+                <img src="css/images_contenu/logo_csgo.png" alt="Counter strike Global Offensive">
+                <img src="css/images_contenu/logo_rainbow6.png" alt="Tom Clancy's Rainbow Six Siege">
+            </div>
+        </div>
+        <div class="formulaire_main">
+            <form action="index.php?page=nouvellePersonne" class="inscription" method="post">
+                <input class="first_name" type="text" placeholder="Ton nom" name="nom">
+                <input class="first_surname" type="text" placeholder="Ton prénom" name="prenom">
+                <input class="pseudo_first" type="text" placeholder="Ton pseudo" name="pseudo">
+                <input class="first_mail" type="email" placeholder="pro_build@fortnite.fr" name="mail">
+                <input class="first_password" type="password" placeholder="Ton mot de passe" name="password">
+
+                <label for="region">
+                    <select name="region" id="region">
+                    <?php
+                    for ($i = 0; $i < count($listeRegion); $i++) {
+                    $region = $listeRegion[$i];
+                    ?>
+                        <option value="<?php echo $region->getId() ?>"><?php echo $region->getNom() ?></option>
+                        <?php } ?>
+                    </select>
+                </label>
+
+                <input class="first_age" type="text" placeholder="aaaa-mm-jj" name="naissance">
+                <label class="checkbox">
+                    <input class="first_sex" type="radio" name="sexe" placeholder="Ton sexe" value="H">
+                    <span class="colorized"></span>
+                    Homme
+                </label>
+                <label class="checkbox">
+                    <input class="first_sex" type="radio" name="sexe" placeholder="Ton sexe" value="F">
+                    <span class="colorized"></span>
+                    Femme
+                </label>
+                <button class="inscription" type="submit" name="valider">S'inscrire</button>
+            </form>
+
+        </div>
+    </div>
+</main>
+</body>
+</html>

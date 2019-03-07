@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Connecte -toi à Alchimate !</title>
+</head>
+<header class="connexion big_header">
+    <div class="flex_header">
+        <div class="title_img">
+            <object data="./css/images_interfaces/logo_alchimate.svg" type="image/svg+xml"></object>
+            <h1>Alchimate</h1>
+        </div>
+        <div class="bouton_header">
+            <a href="index.php?page=nouvellePersonne">
+                <button>S'inscrire</button>
+            </a>
+        </div>
+    </div>
+</header>
+<main class="connexion">
+    <div class="flex_main_connexion">
+        <div class="formulaire_main_connexion">
+            <form  class="connexion" method="post">
+                <div class="champ_connexion_1">
+                    <input class="scnd_mail design_input" type="email" placeholder="Ton mail" name="login">
+                </div>
+                <div class="champ_connexion_2">
+                    <input class="sncd_password design_input" type="password" placeholder="Ton mot de passe" name="password">
+
+                </div>
+                <input class="connexion blue-btn_big" type="submit" name="valider" value="Se connecter">
+            </form>
+            <?php echo $erreurlog ?>
+        </div>
+
+
+    </div>
+
+</main>

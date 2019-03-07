@@ -1,0 +1,28 @@
+<header class="bandeux_rouge">
+    <div class="flex_header">
+        <div class="title_img">
+            <object data="css/images_interfaces/logo_alchimate.svg" type="image/svg+xml"></object>
+            <h1><a href="index.php?page=recherche">Alchimate</a></h1>
+
+        </div>
+        <div class="scnd_flex_header">
+            <a href="index.php?page=recherche">Joueurs</a>
+            <a href="recherche_equipe_alchimate.html">Teams</a>
+        </div>
+        <div class="third_flex_header">
+            <div class="message_recus">
+                <object data="css/images_interfaces/mail.svg" type="image/svg+xml"></object>
+            </div>
+
+            <?php if(!empty ($_SESSION['user'])){ ?>
+            <div class="config_perso">
+                <img class="avatar-header" src="css/images_personne/<?php echo $personne_header->getImage(); ?>" alt="Photo de profil" class="profil_img">
+                <p class="nom_joueur"><a href="index.php?page=profil&id=<?php echo  $personne_header->getIDPersonne();?>"><?php echo $personne_header->getPseudo() ?></a></p>
+                <button class="blue-btn" ><a href="index.php?page=deconnexion">Déconnexion</a></button>
+            </div>
+            <?php }else{ ?>
+            <button class="blue-btn"><a href="index.php?page=connectMe">Connexion</a></button>
+            <?php } ?>
+        </div>
+    </div>
+</header>

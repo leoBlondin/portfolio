@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Monument Extended';
+    src: url("../font/MonumentExtended-Ultrabold.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Monument Extended';
+    src: url("../font/MonumentExtended-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+/* header  index*/
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+}
+.active{
+    color: white;
+    text-decoration: none;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+}
+.shutdown{
+    color: #242424;
+    text-decoration: none;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+nav p{
+    color: white;
+    font-size: 1em;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: normal;
+    margin: 0 10px;
+}
+.flex_text>p{
+    color: white;
+    font-size: 1em;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.flex_text>a{
+    color: white;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+}
+/* main index*/
+.flex_detail>h2{
+    color: white;
+    font-size: 2em;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: bold;
+    margin: 2em;
+}
+.det_text{
+    width: 80%;
+    color: white;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.flex_info p{
+    color: white;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+.flex_info h3{
+    color: white;
+    font-size: 1em;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: normal;
+}
+button{
+    color: white;
+    font-size: 1em;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+}
+main>h1{
+    color: #3B3B3B;
+    font-size: 2.5em;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 2.5em ;
+}
+/*footer index*/
+footer p{
+    color: white;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+footer a{
+    color: white;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+
+
+/*header a propos */
+.back{
+    color: white;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+.flex_propos h1{
+    color: white;
+    font-size: 18em;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: bold;
+}
+.span_title{
+    font-size: 0.4em;
+}
+.main_propos p{
+    color: white;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+.main_propos h2{
+    color: white;
+    font-size: 2em;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: normal;
+}
+
+
+/*porjet page */
+/* gestion header */
+.title_affi>h1{
+    color: white;
+    font-size: 7em;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: bold;
+}
+
+/*gestion main */
+.flex_info_pannel h3{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: normal;
+    margin: 0.5em;
+}
+.flex_info_pannel p{
+    color: white;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+section h2{
+    color: white;
+    font-size: 2em;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: normal;
+}
+section p{
+    color: white;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    width: 60%;
+}
+section a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+.gif_title{
+    color: white;
+    font-size: 1em;
+    font-family: 'Monument Extended', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}

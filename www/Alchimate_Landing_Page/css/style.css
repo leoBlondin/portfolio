@@ -1,0 +1,525 @@
+header{
+    background-image: url("images_contenu/fond_esport.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.everything{
+    position: absolute;
+    width: 100%;}
+body{
+    margin: 0;
+}
+.name{
+    margin: 0;
+    padding-left: 5%;
+    padding-top: 2%;
+    width: 30%;
+
+}
+.tagline{
+    margin: 0;
+    width:100%;
+    margin-top: 5vh;
+}
+.catch_phrase{
+    display: block;
+    margin-left: 5%;
+    margin-top: 3%;
+    position: relative;
+    width: 40%;
+}
+.catch_phrase:after{
+    content:'';
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    background-color: #fff;
+    top: 115%;
+}
+span{
+    display: block;
+}
+.mid2{
+    position: absolute;
+    width: 40%;
+    right: 2%;
+    top: 10%;
+}
+.down{
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 16vh;
+    width: 60%;
+    position: relative;
+}
+.down .inscription {
+    margin-bottom: 4%;
+}
+.down input.first_mail{
+    background-color: #fff;
+    border: none;
+    width: 71%;
+    height: 138%;
+    position: absolute;
+    border-radius: 38px;
+}
+.down button.first_button{
+    position: absolute;
+    background-color: #1e85e9;
+    border: none;
+    border-radius: 38px;
+    width: 23%;
+    height: 142%;
+    color: white;
+    left: 65%;
+}
+.icon_game{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon_game>img{
+    width: 10%;
+    height:auto;
+}
+.text_game{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+.text_game>p{
+    width: 10%;
+}
+.contenu>h2{
+    position: relative;
+    width: 42%;
+    margin-bottom: 2%;
+}
+.contenu{
+    position: relative;
+    margin-top: 7%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.contenu>h2:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 23%;
+    height: 5%;
+    background-color: #EF473A;
+    top: 111%;
+}
+.contenu_flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.contenu_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+}
+.contenu_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+}
+
+.contenu_flex img.im_one {
+    width: 100%;
+}
+.contenu_flex .im_two{
+    width: 100%;
+}
+
+.blue_band{
+    margin-top: 10%;
+    padding-bottom: 25px;
+    background-image: linear-gradient(to right, #005C97, #363795);
+}
+.blue_band object{
+    width: 80%;
+    height: 218px;
+}
+.blue_band>h2{
+    padding-top: 3%;
+    margin-bottom: 75px;
+}
+.all_contentblue{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.rencontrez{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    align-items: center;
+}
+.jouez{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    align-items: center;
+}
+.gagnez{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    align-items: center;
+
+}
+.text_fonctio_2>p{
+    width: 20%;
+}
+
+.game_content {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 35px;
+}
+.mokeup{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.portrait>img{
+    width: 25%;
+    height: auto;
+}
+.portrait{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.mate{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+}
+.name_mate{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.description_mate{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.reseau{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.reseau img{
+    width: 40%;
+}
+.mate>h1{
+    margin-bottom: 50px;
+}
+.inscription_v2{
+    margin-top: 100px;
+    background: linear-gradient(to left, #cb2d3e, #ef473a);
+}
+.inscription_v2>h1{
+    padding-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.down_2{
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 20vh;
+}
+.down_2 button.scnd_button{
+    position: absolute;
+    background-color: #1e85e9;
+    border: none;
+    border-radius: 38px;
+    width: 15%;
+    height: 59px;
+    color: white;
+    left: 60%;
+}
+.down_2 input.scnd_mail{
+    background-color: #fff;
+    border: none;
+    width: 700px;
+    height: 57px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 38px;
+}
+.under_page{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.nom_underpage{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.nom_underpage object{
+    width: 18%;
+}
+.nom_underpage p{
+    display: inline-block;
+}
+.assurance{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.assurance p{
+    display: inline-block;
+}
+#heart{
+    width: 10%;
+    padding-left: 10px;
+}
+.first_button:hover{
+    background-color: #0a37e9;
+}
+#navigation{
+    margin-top: 50px;
+    list-style: none;
+}
+#navigation>li{
+    list-style: none;
+    background-color: #1e85e9;
+    border-radius: 35px;
+    width: 115px;
+    height: 35px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.nav{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:"Work Sans", sans-serif;
+    font-size: 25px;
+}
+#slider img{
+    width: 100%;
+    height: auto;
+}
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+    /*header */
+    header{
+        background: #cb2d3e;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .name{
+        text-align: center;
+        margin: 0;
+        font-size: 2em;
+        width: 100vw;
+        padding: 0;
+        padding-top: 25px;
+    }
+    .flex_title{
+        display: flex;
+        flex-flow: column-reverse nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .mid2{
+        position: relative;
+        width: 85vw;
+        height: auto;
+        right: 0;
+        margin-top: 25px;
+    }
+    .catch_phrase{
+        width: 100vw;
+        font-size: 0.8em;
+        margin: 0 3%;
+    }
+    .tagline{
+        margin-top: 20px;
+    }
+    .inscription{
+        display: none;
+    }
+    body > div > header > div > div.down.fadeInDown.wow > input{
+        width: 80%;
+        margin: auto;
+        height: 40px;
+        position: relative;
+    }
+    .down{
+        display: flex;
+        width: 100vw;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        margin-top: 50px;
+    }
+    body > div > header > div > div.down.fadeInDown.wow > button{
+        position: relative;
+        width: 50%;
+        height: 40px;
+        margin-top: 25px;
+        left: 0;
+    }
+
+    /*main*/
+    .text_game{
+        display: none;
+    }
+    .game_content{
+        margin: 22px 0;
+    }
+    .icon_game{
+        justify-content: space-around;
+    }
+    .contenu{
+        margin: 10px 3%;
+    }
+    .contenu>h2{
+        width: 100%;
+    }
+    .contenu_flex{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .contenu_1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .contenu_2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .contenu_flex p {
+        font-size: 1em !important;
+    }
+    .blue_band>h2{
+        font-size: 2em !important;
+        width: 80%;
+        text-align: start !important;
+        margin: 0 3%;
+    }
+    .all_contentblue{
+        flex-flow: column nowrap;
+    }
+    .all_contentblue p{
+        font-size: 1em !important;
+    }
+    .rencontrez{
+        width: 90%;
+        margin-bottom: 15px ;
+    }
+    .jouez{
+        width: 90%;
+        margin-bottom: 15px ;
+    }
+    .gagnez{
+        width: 90%;
+        margin-bottom: 15px ;
+    }
+    .nav{
+        display: none;
+    }
+    .mokeup{
+        display: none;
+    }
+    .mate{
+        display: none;
+    }
+    /* footer */
+    .inscription_v2 {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        margin: 0;
+    }
+    .inscription_v2>h1{
+        font-size: 2em !important;
+        margin: 0 3%;
+        padding: 15px;
+    }
+    .down_2{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+    }
+    body > div > footer > div.inscription_v2 > div > input{
+        width: 80% !important;
+        height: 40px !important;
+        margin: 0 !important;
+        position: relative !important;
+        font-size: 1.2em !important;
+    }
+    body > div > footer > div.inscription_v2 > div > button{
+        position: relative !important;
+        width: 60% !important;
+        height: 40px !important;
+        left: 0 !important;
+    }
+    .assurance{
+        display: none;
+
+    }
+    body > div > footer > div.under_page > div.nom_underpage > object{
+        display: none;
+    }
+    .under_page{
+        margin: 0;
+    }
+    .under_page p{
+        font-size: 1em !important;
+    }
+    .under_page a{
+        font-size: 1em !important;
+    }
+}

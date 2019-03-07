@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Modifie ton profil Alchimate !</title>
+</head>
+<body>
+<main class="modification_profil">
+    <h2 class="profil">MODIFICATION DE PROFIL</h2>
+    <div class="flex_info_first_joueur">
+        <div class="info_first_player">
+            <h1 class="joueur_name"><?php echo $personne->getPseudo(); ?></h1>
+            <img class="avatar" src="css/images_personne/<?php echo $personne->getImage(); ?>" alt="Avatar">
+        </div>
+
+    </div>
+    <aside class="modification_perso">
+        <div class="info_perso_joueur">
+            <h2>Infos personnelles</h2>
+            <div class="flex_info_perso">
+                <form enctype="multipart/form-data" class="flex_info_perso_2" method="post">
+                    <div class="lien_joueur">
+                        <div class="div_design">
+                            Choisir une image
+                            <input value="<?php echo $personne->getImage(); ?>" id="file-input-1" name="photo"
+                                   type="file" class="file-inputs "/>
+                        </div>
+                        <input type="submit" name="valider" class="blue-btn">
+                    </div>
+                    <div class="flex_label_modif">
+                        <p>Ton pseudo</p>
+                        <label>
+                            <input type="text" name="pseudo" value="<?php echo $personne->getPseudo(); ?>">
+                        </label>
+                    </div>
+                    <div class="flex_label_modif">
+                        <p>Ton email</p>
+                        <label>
+                            <input type="text" name="mail" value="<?php echo $personne->getMail(); ?>">
+                        </label>
+                    </div>
+                    <div class="flex_label_modif">
+                        <p>Ta région</p>
+                        <label>
+
+                            <select name="region" id="region">
+                                <?php  foreach($personne->getLaRegion() as $region) {?>
+
+                                <option value="<?php echo $region->getId(); ?>" selected><?php echo $region->getNom();
+                                    ?>
+                                </option>
+                                <?php } ?>
+
+                                <?php
+                    for ($i = 0; $i < count($listeRegion); $i++) {
+                    $regions = $listeRegion[$i];
+                    ?>
+                                <option value="<?php echo $regions->getId() ?>"><?php echo $regions->getNom() ?>
+                                </option>
+                                <?php }?>
+
+                            </select>
+                        </label>
+                    </div>
+                    <h2 class="description_title">Description</h2>
+                    <label class="bio_player_modif">
+                        <input type="text" name="description" value="<?php echo $personne->getDescription()?>" style="padding-left: 10px;">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="jeu_perso_modif">
+            <h2>Tes jeux</h2>
+            <div class="flex_jeu_perso">
+                <?php foreach ($personne->getLeJeux() as $jeu){ ?>
+                <p><?php echo $jeu->getNom(); ?></p>
+                <?php } ?>
+            </div>
+            <button class="modif_jeu_bouton blue-btn">Modifie tes jeux</button>
+        </div>
+    </aside>
+
+</main>
+<footer>
+    <div class="container_all">
+        <div class="under_name">
+            <object data="css/images_interfaces/logo_alchimate.svg" type="image/svg+xml"></object>
+            <h1>Alchimate</h1>
+        </div>
+        <div class="custom_request">
+            <a href="#">Messagerie</a>
+            <a href="#">Édite ton profil</a>
+            <a href="#">Soumets un jeu</a>
+            <a href="mailto:alchimate@gmail.com">Contact le support</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

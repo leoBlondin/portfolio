@@ -1,0 +1,35 @@
+#slider>div{
+    display: none;
+    width: 631px;
+}
+#slider .courant {
+    display: block;
+}
+#slider > div.courant {
+    transform: translateX(0);
+}
+
+#slider > div.avant {
+    transform: translateX(-631px);
+}
+
+#slider > div.apres {
+    transform: translateX(631px);
+}
+#slider .courant {
+    transform: translateX(0);
+}
+
+#slider .avant-1 {
+    transform: translateX(-631px);
+}
+#slider .avant-2 {
+    transform: translateX(-1262px);
+}
+
+#slider .apres-1 {
+    transform: translateX(300px);
+}
+#slider .apres-2 {
+    transform: translateX(600px);
+}

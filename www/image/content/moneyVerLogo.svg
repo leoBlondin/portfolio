@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 458 458" style="enable-background:new 0 0 458 458;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#3F7725;}
+	.st2{enable-background:new    ;}
+	.st3{fill:#509E30;}
+	.st4{fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="56.2593" y1="398.9534" x2="384.6228" y2="79.6901" gradientTransform="matrix(1 0 0 -1 0 460)">
+	<stop  offset="0" style="stop-color:#50FF00"/>
+	<stop  offset="1" style="stop-color:#509E30"/>
+</linearGradient>
+<path class="st0" d="M387.1,458H70.9C31.7,458,0,426.3,0,387.1V70.9C0,31.7,31.7,0,70.9,0h316.2C426.3,0,458,31.7,458,70.9v316.2
+	C458,426.3,426.3,458,387.1,458z"/>
+<circle class="st1" cx="1200" cy="-678" r="198"/>
+<text transform="matrix(1 0 0 1 -869.293 -512.3867)" style="font-family:'Roboto-Black'; font-size:85.7378px;">MONEYVER</text>
+<circle class="st3" cx="1200" cy="-678" r="138"/>
+<g>
+	<path class="st1" d="M1174.3-730.7l25.4,79.1l25.3-79.1h36.1v113.6h-27.5v-26.5l2.7-54.3l-27.5,80.9h-18.1l-27.5-80.9l2.7,54.4
+		v26.5h-27.4v-113.6L1174.3-730.7L1174.3-730.7z"/>
+</g>
+<circle cx="229" cy="-678" r="138"/>
+<circle class="st4" cx="229" cy="-678" r="223.3"/>
+<g>
+	<path class="st5" d="M203.3-730.7l25.4,79.1l25.3-79.1h36v113.6h-27.5v-26.5l2.7-54.3L237.7-617h-18.1l-27.5-81l2.7,54.4v26.5
+		h-27.4v-113.6H203.3z"/>
+</g>
+<g>
+	<g>
+		<g>
+			<path class="st5" d="M120.6,330.7c-1.6-1.6-2.4-3.5-2.4-5.6v-192c0-2.2,0.8-4.1,2.4-5.6c1.6-1.6,3.5-2.4,5.6-2.4h46.9
+				c5.5,0,9.8,2.7,12.8,8l43.1,71.3l43.1-71.3c3-5.3,7.2-8,12.8-8h46.9c2.2,0,4.1,0.8,5.6,2.4c1.6,1.6,2.4,3.5,2.4,5.6V325
+				c0,2.2-0.8,4.1-2.4,5.6c-1.6,1.6-3.5,2.4-5.6,2.4H278c-2.2,0-4.1-0.8-5.6-2.4c-1.6-1.6-2.4-3.5-2.4-5.6l61.6-200l-81.2,150.7
+				c-1.4,2.2-2.9,4-4.6,5.3c-1.7,1.4-3.8,2.1-6.4,2.1h-20.8c-2.6,0-4.7-0.7-6.4-2.1c-1.7-1.4-3.2-3.2-4.6-5.3L126.1,125L188,325
+				c0,2.2-0.8,4.1-2.4,5.6c-1.6,1.6-3.5,2.4-5.6,2.4h-53.8C124,333,122.2,332.2,120.6,330.7z"/>
+		</g>
+	</g>
+</g>
+</svg>

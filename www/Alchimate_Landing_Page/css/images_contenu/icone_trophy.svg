@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-546.793 4511.45 209.793 274.942">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        filter: url(#Tracé_10);
+      }
+
+      .cls-3 {
+        filter: url(#Tracé_9);
+      }
+
+      .cls-4 {
+        filter: url(#Tracé_8);
+      }
+
+      .cls-5 {
+        filter: url(#Tracé_7);
+      }
+    </style>
+    <filter id="Tracé_7" x="-491.881" y="4527.85" width="30.157" height="50.023" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_8" x="-485.237" y="4567.85" width="56.442" height="72.258" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_9" x="-546.793" y="4511.45" width="209.793" height="274.942" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_10" x="-492.404" y="4708.257" width="101.017" height="61.735" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icone_trophy" transform="translate(-597.377 4517.45)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 597.38, -4517.45)">
+      <path id="Tracé_7-2" data-name="Tracé 7" class="cls-1" d="M168.759,61.965a4.1,4.1,0,0,0,3.373-4.716l-3.956-23.821a4.1,4.1,0,0,0-8.089,1.344l3.956,23.821a4.094,4.094,0,0,0,4.716,3.373Z" transform="translate(-642.91 4503.85)"/>
+    </g>
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 597.38, -4517.45)">
+      <path id="Tracé_8-2" data-name="Tracé 8" class="cls-1" d="M206.524,149.224a22.451,22.451,0,0,1-22.24-18.807L180.327,106.6a4.1,4.1,0,0,0-8.089,1.344l3.957,23.822a30.624,30.624,0,0,0,30.329,25.663,4.1,4.1,0,1,0,0-8.2Z" transform="translate(-648.42 4470.68)"/>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 597.38, -4517.45)">
+      <path id="Tracé_9-2" data-name="Tracé 9" class="cls-1" d="M247.279,11.01H227.945a4.1,4.1,0,0,0-4.044,3.428l-.412,2.48c-1.012,6.091-6.044,11.427-11.966,13.366L215.76,4.772A4.1,4.1,0,0,0,211.715,0H99.248A4.1,4.1,0,0,0,95.2,4.772l4.237,25.513c-5.922-1.939-10.954-7.275-11.966-13.366l-.412-2.48a4.1,4.1,0,0,0-4.044-3.428H63.684a4.1,4.1,0,0,0-4.1,4.1c0,20.04,5.384,38.925,15.161,53.173,9.318,13.58,21.609,21.526,34.906,22.676a47.11,47.11,0,0,0,31.163,33.752l-.01,22.676a39.658,39.658,0,0,0-25.019,33.019H101.672a4.1,4.1,0,0,0-4.1,4.1v68.336a4.1,4.1,0,0,0,4.1,4.1H209.29a4.1,4.1,0,0,0,4.1-4.1V184.507a4.1,4.1,0,0,0-4.1-4.1H195.176a39.657,39.657,0,0,0-25.019-33.019l-.01-22.676a47.11,47.11,0,0,0,31.163-33.752c13.3-1.15,25.588-9.1,34.906-22.676,9.777-14.248,15.161-33.132,15.161-53.173A4.1,4.1,0,0,0,247.279,11.01Zm-179.413,8.2h11.7c2.128,10.071,11.177,18.317,21.328,19.811l7.223,43.488C86.363,78.979,69.187,52.247,67.866,19.211ZM205.191,248.742H105.772V188.607H205.19v60.135Zm-18.265-68.336H124.037a31.521,31.521,0,0,1,21.525-26.014H165.4A31.521,31.521,0,0,1,186.926,180.407Zm-24.968-34.214H149l.008-19.584a46.722,46.722,0,0,0,12.937,0Zm-6.477-27.334a38.8,38.8,0,0,1-38.418-32.52L104.085,8.2H206.878L193.9,86.338A38.8,38.8,0,0,1,155.482,118.858ZM202.848,82.51l7.223-43.488c10.151-1.494,19.2-9.74,21.328-19.811h11.7C241.777,52.247,224.6,78.979,202.848,82.51Z" transform="translate(-597.38 4517.45)"/>
+    </g>
+    <g class="cls-2" transform="matrix(1, 0, 0, 1, 597.38, -4517.45)">
+      <path id="Tracé_10-2" data-name="Tracé 10" class="cls-1" d="M159.073,364.1v35.535a4.1,4.1,0,0,0,4.1,4.1h47.482a4.1,4.1,0,1,0,0-8.2H167.273V368.2H233.89v27.334h-6.834a4.1,4.1,0,1,0,0,8.2H237.99a4.1,4.1,0,0,0,4.1-4.1V364.1a4.1,4.1,0,0,0-4.1-4.1H163.173A4.1,4.1,0,0,0,159.073,364.1Z" transform="translate(-642.48 4354.26)"/>
+    </g>
+  </g>
+</svg>

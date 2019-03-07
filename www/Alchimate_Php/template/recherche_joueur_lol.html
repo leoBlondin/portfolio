@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Recherche de joueur dans League Of Legend</title>
+</head>
+<body>
+
+<main class="recherche_lol">
+    <div class="flex_title_lol">
+        <h1>Recherche de <span>joueurs</span></h1>
+        <div class="jeu_logo">
+            <h2>League Of Legends</h2>
+            <img src="css/images_contenu/logo_lol.png" alt="logo League of legend">
+        </div>
+    </div>
+    <div class="tableau_joueur">
+        <aside class="filtre_recherche">
+            <form method="post" class="form_no">
+                <label style="width: 100%;">
+                    <input type="text" placeholder=" Recherche par pseudo" name="pseudo" style="width: 100%;"
+                           class="input_under">
+                </label>
+                <p>Rôle :</p>
+                <div class="flex_last_day">
+                    <label class="checkbox filtre">
+                        <input value="adc" type="radio" name="role">
+                        <span class="colorized"></span>
+                        ADC
+                    </label>
+                    <label class="checkbox filtre">
+                        <input value="support" type="radio" name="role">
+                        <span class="colorized"></span>
+                        Support
+                    </label>
+                    <label class="checkbox filtre">
+                        <input value="midlane" type="radio" name="role">
+                        <span class="colorized"></span>
+                        Midlane
+                    </label>
+                    <label class="checkbox filtre">
+                        <input value="toplane" type="radio" name="role">
+                        <span class="colorized"></span>
+                        Toplane
+                    </label>
+                    <label class="checkbox filtre">
+                        <input value="jungle" type="radio" name="role">
+                        <span class="colorized"></span>
+                        Jungle
+                    </label>
+                </div>
+                <p>Division :</p>
+                <div class="division_filtre">
+                    <label class="checkbox filtre">
+                        <input value="bronze" type="radio" name="niveau">
+                        <span class="colorized"></span>
+                        Bronze
+                    </label>
+                    <label class="checkbox filtre">
+                        <input value="silver" type="radio" name="niveau">
+                        <span class="colorized"></span>
+                        Silver
+                    </label>
+                    <label class="checkbox filtre">
+                        <input value="gold" type="radio" name="niveau">
+                        <span class="colorized"></span>
+                        Gold
+                    </label>
+                    <label class="checkbox filtre">
+                        <input value="platine" type="radio" name="niveau">
+                        <span class="colorized"></span>
+                        Platinium
+                    </label>
+                    <label class="checkbox filtre">
+                        <input value="diamant" type="radio" name="niveau">
+                        <span class="colorized"></span>
+                        Diamond
+                    </label>
+                    <label class="checkbox filtre">
+                        <input value="master" type="radio" name="niveau">
+                        <span class="colorized"></span>
+                        Master
+                    </label>
+                    <label class="checkbox filtre">
+                        <input value="challenger" type="radio" name="niveau">
+                        <span class="colorized"></span>
+                        Challenger
+                    </label>
+                </div>
+
+                <p>Sexe :</p>
+                <div class="sexe_filtre">
+                    <label class="checkbox">
+                        <input class="first_sex" type="radio" placeholder="Ton sexe" name="sexe" value="H">
+                        <span class="colorized"></span>
+                        Homme
+                    </label>
+                    <label class="checkbox">
+                        <input class="first_sex" type="radio" placeholder="Ton sexe" name="sexe" value="F">
+                        <span class="colorized"></span>
+                        Femme
+                    </label>
+
+                </div>
+                <input class="blue-btn" value="Appliquer" name="apply-filter" type="submit">
+            </form>
+        </aside>
+
+        <aside class="resultat_recherche">
+
+            <div class="flex_card">
+                <?php
+                        for ($i = 0; $i < count($liste); $i++) {
+                        $personne = $liste[$i];
+                        ?>
+                <div class="flex_only_card">
+                    <div class="scnd_part_card">
+
+                        <a href="index.php?page=profil&id=<?php echo $personne->getIdPersonne (); ?>">
+                            <div class="first_part_card">
+                                <img src="css/images_personne/<?php echo $personne->getImage(); ?>" alt="Imge de profil"
+                                     class="card">
+                                <p class="card_name"><?php echo $personne->getPseudo(); ?></p>
+                                <div class="flex_level_last">
+                                    <p class="card_niveau"><?php
+                                foreach($personne->getLeNiveau() as $niveau) {
+                                        echo "
+                                    <p class='card_niveau'>".$niveau->getNom()."</p>";
+                                    }?></p>
+                                </div>
+                                <p class="card_poste">
+                                    <?php   foreach($personne->getLePoste() as $poste) {
+                                    echo $poste->getNom();
+                                    } ?></p>
+                            </div>
+                            <div class="flex_img_jeu_card">
+                                <?php foreach($personne->getLeJeux() as $jeux) { ?>
+                                <img src='css/images_contenu/<?php echo $jeux->getImage(); ?>'>
+                                <?php  }?>
+
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <?php } ?>
+
+            </div>
+        </aside>
+    </div>
+</main>
+<footer>
+    <div class="container_all">
+        <div class="under_name">
+            <object data="css/images_interfaces/logo_alchimate.svg" type="image/svg+xml"></object>
+            <h1>Alchimate</h1>
+        </div>
+        <div class="custom_request">
+            <a href="#">Messagerie</a>
+            <a href="#">Édite ton profil</a>
+            <a href="#">Soumets un jeu</a>
+            <a href="mailto:alchimate@gmail.com">Contact le support</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

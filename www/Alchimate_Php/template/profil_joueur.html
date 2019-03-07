@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Joueur</title>
+
+</head>
+<body>
+
+<main class="profil_joueur">
+
+    <h2 class="profil">PROFIL</h2>
+    <div class="flex_info_first_joueur">
+        <div class="info_first_player">
+            <h1 class="joueur_name"><?php echo $personne->getPseudo(); ?></h1>
+            <img class="avatar" src="css/images_personne/<?php echo $personne->getImage(); ?>" alt="Avatar">
+        </div>
+        <div class="lien_joueur">
+            <a href="#" class="reduc">
+                <img src="css/images_interfaces/mail.svg" alt="mail">
+            </a>
+ <?php if ($_SESSION["user"]["ID_Personne"] === $_GET["id"]) { ?>
+            <a href="index.php?page=modifProfil&id=<?php echo $personne->getIdPersonne(); ?>" class="contact_joueur">
+                <button>Modifier ton profil</button>
+            </a>
+<?php } ?>
+        </div>
+    </div>
+    <aside class="cadre_info_joueur">
+        <div class="mosaique_profil_joueur">
+            <div class="left_content">
+                <div class="flex_cadre_info">
+                    <p><?php echo $personne->getNaissanceDate(); ?></p>
+                    <p><?php echo $personne->getSexe(); ?></p>
+                    <p><?php echo $region->getNom(); ?></p>
+
+                </div>
+                <div class="pub_content">
+                </div>
+            </div>
+            <div class="right_content">
+                <div class="flex_info_scnd_player">
+                    <h2 class="description">Description</h2>
+                    <p><?php echo $personne->getDescription(); ?></p>
+                    <h2>Joue à</h2>
+                    <div class="jeux_division_post">
+                        <img src="css/images_contenu/logo_lol.png" alt="LoL">
+                        <p>Silver</p>
+                        <div class="flex_division_info">
+                            <p>Mid</p>
+                            <p>Toplane</p>
+                            <p>Jungle</p>
+                        </div>
+                    </div>
+                    <h2>Avis</h2>
+                    <form method="post">
+                        <textarea placeholder="Laisse ton avis" name="commentaire" class="input_champ"></textarea>
+                        <input type="submit" name="submit_comment" value="Publier" class="blue-btn">
+                    </form>
+                    <div class="avis_profil">
+                        <?php
+                        for ($i = 0; $i < count($listeCom); $i++) {
+                        $commentaire = $listeCom[$i];
+                        ?>
+                        <p><?php echo $commentaire->getDescription();?></p>
+                        <a href="index.php?page=profil&id=<?php echo $commentaire->getIdEcrivain(); ?>" class="avis_dun_joueur_externe"><?php echo $commentaire->getEcrivain(); ?> - <?php echo $commentaire->getDate(); ?></a>
+                        <?php } ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+</main>
+<footer>
+    <div class="container_all">
+        <div class="under_name">
+            <object data="../css/images_interfaces/logo_alchimate.svg" type="image/svg+xml"></object>
+            <h1>Alchimate</h1>
+        </div>
+        <div class="custom_request">
+            <a href="#">Messagerie</a>
+            <a href="#">Édite ton profil</a>
+            <a href="#">Soumets un jeu</a>
+            <a href="mailto:alchimate@gmail.com">Contact le support</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
