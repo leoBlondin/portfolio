@@ -179,6 +179,12 @@ main {
     background: linear-gradient(to right, #41295a, #2F0743); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+.colo4 {
+    background: #0C2C55;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0C2C55, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0C2C55, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
 
 .back_proj > img {
     width: 35%;
@@ -461,6 +467,17 @@ section {
 .gif_img{
     width: 60%;
 }
+/*bvn mmi*/
+.bvnmmi {
+    background: #0C2C55;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0C2C55, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0C2C55, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
 /*responsiv design */
 /* index */
 @media screen and (max-width: 960px) and (min-width: 600px) {
@@ -703,7 +720,7 @@ section {
         font-size: 1em;
     }
     .putcenter{
-        padding: 1.5em 0;
+        padding: 4.5em 0;
 
     }
     .fstsec{
@@ -723,6 +740,13 @@ section {
         align-items: center;
     }
     .montreal>.putcenter>.flex_alchi{
+        height: 100vh;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bvnmmi>.putcenter>.flex_alchi{
         height: 100vh;
         display: flex;
         flex-flow: column nowrap;
@@ -908,7 +932,7 @@ section {
         align-items: start;
     }
     .putcenter{
-        padding: 1.5em 0;
+        padding: 4.5em 0;
 
     }
     .fstsec{
@@ -933,6 +957,13 @@ section {
         margin-right: 5%;
     }
     .moneyver>.putcenter>.flex_alchi{
+        height: 100vh;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bvnmmi>.putcenter>.flex_alchi{
         height: 100vh;
         display: flex;
         flex-flow: column nowrap;
